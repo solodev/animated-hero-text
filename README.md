@@ -1,0 +1,2 @@
+# animated-hero-text
+Oftentimes, hero text can be boring or perhaps you have more to say than just one fragment of a sentence. In some cases, you may provide multiple services or products that can't be summed up in one header. That's where animated hero text comes in. Using the example in the tutorial below, you can have your hero text alternate to describe different aspects of your business. In this article, Solodev will show you how to add animated hero text to your website using jQuery.
