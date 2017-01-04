@@ -1,0 +1,155 @@
+#search-form {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#search-form {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    right: 0;
+    background-color: #2e2e2e;
+    background-color: rgba(46,46,46,0.85);
+    max-width: 800px;
+    padding: 20px 20px 0;
+    text-align: center;
+    z-index: 1;
+}
+.home-image {
+    text-align: center;
+}
+.home-title {
+    font-family: Arial, Helvetica, Sans-Serif;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
+h2.home-title {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+h3.home-title {
+  font-size: 17px;
+  margin-top: 40px;
+  
+}
+.home-title a {
+  color: #22adea;
+  text-decoration: none;
+  transition: all 0.25s ease-in-out;
+}
+.home-title a:hover {
+  color: #F0AD4E;
+}
+h1.home-image img {
+    margin: 0 auto;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.mod-search {
+    padding-bottom: 30px;
+}
+.mod-search .block-content {
+    padding-top: 10px;
+}
+.block .block-content {
+    padding-top: 18px;
+    clear: both;
+}
+.hero-form select {
+    height: 38px;
+    margin: 0 10px 0 0;
+    border-radius: 0;
+}
+.hero-form input[type=text] {
+    height: 38px;
+    margin: 0 10px 0 0;
+    border-radius: 0;
+}
+.hero-form input[type=submit] {
+    font-size: 14px;
+    background-color: #F0AD4E;
+    height: 38px;
+    border-radius: 0;
+}
+.heroimage {
+    margin-bottom: 0px;
+  background-image: url(https://www.solodev.com/assets/hero-form/hero-image.jpg);
+  background-size: cover;
+  width: 100%;
+    min-height: 500px;
+}
+@media screen and (max-width: 768px) {
+    .hero-form select {
+    width: 100%;
+  }
+}
+body {
+  display: block;
+  background-color: #e7e7e7;
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: #2f2f2f;
+  font: 13px/1.7 "Raleway", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden; }
+
+.cd-intro {
+  width: 90%;
+  max-width: 768px; }
+
+.cd-words-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+ }
+.cd-words-wrapper b {
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+    font-weight: 400;
+    left: 0;
+    top: 0;
+    text-transform: uppercase;
+    color: #1aa6e2;
+ }
+  .cd-words-wrapper b.is-visible {
+    position: relative; }
+
+.no-js .cd-words-wrapper b {
+  opacity: 0; }
+
+.no-js .cd-words-wrapper b.is-visible {
+  opacity: 1; }
+
+.cd-headline.clip span {
+  display: inline-block;
+  padding: .2em 0; }
+
+.cd-headline.clip .cd-words-wrapper {
+  overflow: hidden;
+  vertical-align: top; }
+
+.cd-headline.clip .cd-words-wrapper::after {
+  /* line */
+  content: '';
+  position: absolute;
+  top: 6px;
+  right: 0;
+  width: 2px;
+  height: 80%;
+  background-color: #cfcfcf; }
+
+.cd-headline.clip b {
+  opacity: 0; }
+
+.cd-headline.clip b.is-visible {
+  opacity: 1; }
